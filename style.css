@@ -1,0 +1,22 @@
+
+.headertable{
+background-color: orange;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+input, select, textarea {
+    margin-left: 40px;
+}
+
+.TabelKomentar {
+    text-align: justify; 
+}
+
+
+
+
+
+

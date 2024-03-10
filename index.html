@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpus</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <h1>CHALLANGE_22.11.4695</h1>
+    <div class="tabel1">
+        <table border="1" cellspacing="0">
+        <tr>
+            <th colspan="10" class="headertable thtd">Daftar Buku Buku</th>
+        </tr>
+        <tr>
+            <td rowspan="5"><img src="img/buku.png" alt="Gambar Buku" ></td>
+        </tr>
+        <tr ">
+            <td colspan="2" >Judul</td>
+            <td colspan="3" >:</td>
+            <td colspan="4">Design business 2042</td>
+        </tr>
+        <tr >
+            <td colspan="2">Harga</td>
+            <td colspan="3" >:</td>
+            <td colspan="4" >240.000</td>
+        </tr>
+        <tr class="thtd">
+            <td colspan="2" >Pengarang</td>
+            <td colspan="3" >:</td>
+            <td colspan="4" >Prof.Umar Salaudin</td>
+        </tr>
+    </table>
+    </table><br>
+</div>
+    <p><b>Isilah formulir dibawah ini</b></p>
+    <form>
+        <div>
+        <label for="nama" >Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukan Nama Anda"><br><br>
+        </div>
+        <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Masukan Password"><br><br>
+        </div>
+        <div>
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+    </div>
+    <div>
+        <label for="Hobi">Hobi :</label>
+        <input type="checkbox" name="Hobi" value="Membaca Buku">Membaca Buku
+        <input type="checkbox" name="Hobi" value="Menulis">Menulis
+        <input type="checkbox" name="Hobi" value="Memancing">Memancing
+    </div><br>
+        <div>   
+        <label for="asal_kota">Asal Kota:</label>
+        <select id="asal_kota" name="asal_kota">
+            <option value="">Pilih Kota</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Yogyakarta</option>
+        </select><br><br>
+        </div>
+
+        <div>
+        <table>
+            <tr>
+                <td class="label-komentar"><label for="komentar">Komentar:</label></td>
+                <td>
+                    <textarea id="komentar" name="komentar" rows="6" cols="30" placeholder="Masukkan komentar Anda di sini!"></textarea>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button type="submit" name="daftar">Mulai Proses!</button>
+    </div>
+</body>
+</html>
